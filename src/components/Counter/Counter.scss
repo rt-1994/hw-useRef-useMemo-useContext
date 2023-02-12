@@ -1,0 +1,28 @@
+.count{
+  transition: 1s;
+  color: black;
+  font-size: 36px;
+}
+.counter{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.counter-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.up,
+.down{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 26px;
+  border: 1px #000 solid;
+  margin: 0;
+  padding: 0;
+}
