@@ -1,0 +1,29 @@
+.selecter{
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.open{
+  margin: 0;
+  font-size: 16px;
+  color: black;
+  border: 1px #000 solid;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  text-align: center;
+  li{
+    font-size: 16px;
+    color: black;
+    border: 1px #000 solid;
+    padding: 10px 0;
+  }
+}
