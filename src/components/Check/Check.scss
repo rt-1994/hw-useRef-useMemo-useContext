@@ -1,0 +1,30 @@
+.check{
+  padding-top: 60px;
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+
+.check-inner{
+  box-shadow: 0 0 5px 0 silver;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 25px;
+
+  ul{
+    list-style: none;
+  }
+
+  button{
+    padding: 2px 7px;
+    font-size: 16px;
+    border: 1px #000 solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+  }
+}

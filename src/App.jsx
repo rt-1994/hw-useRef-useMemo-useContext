@@ -9,8 +9,8 @@ import Cards from "./components/Cards/Cards";
 import InputSaver from "./components/InputSaver/InputSaver";
 import Count from "./components/Count/Count";
 import Selecter from "./components/Selecter/Selecter";
-
-
+import Check from "./components/Check/Check";
+import Toggler from "./components/Toggler/Toggler";
 
 
 localStorage.setItem("count", 0);
@@ -20,6 +20,9 @@ const App = () => {
         <div className={tabStyles.tabs}>
             <h1>Home work(useRef, useMemo, useContext)</h1>
             <Tabs>
+                <Tab label="Toggler">
+                    <Toggler/>
+                </Tab>
                 <Tab label="Chips">
                     <Chips/>
                 </Tab>
@@ -40,6 +43,9 @@ const App = () => {
                 </Tab>
                 <Tab label="Selecter">
                     <Selecter/>
+                </Tab>
+                <Tab label="Check">
+                    <Check/>
                 </Tab>
             </Tabs>
         </div>
